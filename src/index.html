@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt Me!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root">Lorem ipsum.</div><!--this is where react is going to render the app. Its the anchor point-->
+    <!--The line below is going to render the package from an external resource, instead of installing directly in the proyect locally-->
+    <script src="https://unpkg.com/react@17.0.1/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.1/umd/react-dom.development.js"></script>
+    <script>
+        // Below "App" its a react component, its like a ruber stamp. You can use it whenever you want
+       const App = () => {
+           return React.createElement(
+               "div", //this is the html label to create
+               {}, //this is an empty object. here we can define attributes and pass it to the element like {id : "my-brand"}
+               React.createElement("h1", {}, "Adopt Me!") //optionally passing additional content to the div
+           );
+       };
+
+       // Below ReactDOM will render the component. In this case root is the div id that we choose.
+       ReactDOM.render(React.createElement(App), document.getElementById('root'));
+    </script>
+
+</body>
+</html>
