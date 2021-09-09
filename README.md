@@ -8,6 +8,11 @@
 ## Notes
 
 - React requires react and react-dom to run
+- React needs a div at the index.html file to be anchored to. Usually it is called root
+- React components are created on their own file
+- ReactDOM.render(micomponent, document.getElementById("theidwheretorender")) it is needed to link the component to render with the div that will render the component
+- When there are multiple children in a list, each one should have a unique "key" prop
+- In react the data flows only in one way. From parents to children and not the other way around. Is not possible for a child to pass info to its parent.
 
 ## Tools
 | Name | Where to find it |
