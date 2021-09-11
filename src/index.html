@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt Me!</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div id="root">Lorem ipsum.</div><!--this is where react is going to render the app. Its the anchor point-->
     <!--The line below is going to render the package from an external resource, instead of installing directly in the proyect locally-->
-    <script src="https://unpkg.com/react@17.0.1/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@17.0.1/umd/react-dom.development.js"></script>
-    <script src="App.js"></script> <!--Importing the React component-->
+    <!--<script src="https://unpkg.com/react@17.0.1/umd/react.development.js"></script>-->
+    <!--<script src="https://unpkg.com/react-dom@17.0.1/umd/react-dom.development.js"></script>-->
+    <!-- type="module" is a good practice required for parcel at least-->
+    <script type="module" src="App.js"></script> <!--Importing the React component-->
    <!-- Moving this to a App.js, since we are going to create a component
     as its usual for the react apps. Isolate the components for reuse and 
     better debugging

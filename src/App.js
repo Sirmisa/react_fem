@@ -1,6 +1,8 @@
 //There are some notations for eslint that lets you ignore some things
 // this ignores the no declaration of the react libraries
 // ->> /*global React ReactDOM*/
+import React from "react";
+import ReactDOM from "react-dom";
 
 const Pet = (props) => {
   return React.createElement("div", {}, [

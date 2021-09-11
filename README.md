@@ -28,12 +28,15 @@ Use it to quickly and easily load any file from any package using a URL like: un
 | Prettier https://github.com/prettier/prettier | Lets you format your code and provides good practices |
 | Prettier | As a VScode extension |
 | ESlint | As a VScode extension |
+| Parcel | Bundler for JavaScript |
 
 ## Shortcuts
 
-| Shortcut                                     | Action                                          |
-| -------------------------------------------- | ----------------------------------------------- |
-| html:5                                       | Creates a basic html template                   |
-| npm init                                     | Adds the basic structure that is a package.json |
-| npm install -D prettier                      | To install prettier as a DEV dependency         |
-| npm install -D eslint eslint-config-prettier | To install eslint as dev dependency             |
+| Shortcut                                     | Action                                                                  |
+| -------------------------------------------- | ----------------------------------------------------------------------- |
+| html:5                                       | Creates a basic html template                                           |
+| npm init                                     | Adds the basic structure that is a package.json                         |
+| npm install -D prettier                      | To install prettier as a DEV dependency                                 |
+| npm install -D eslint eslint-config-prettier | To install eslint as dev dependency                                     |
+| npm install -D parcel                        | To install parcel                                                       |
+| npm install react react-dom                  | To install react and react-dom together, we can install them separately |
