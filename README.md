@@ -17,6 +17,7 @@
 - Prettier needs a .prettierrc which is the configuration file for prettier
 - ESlint gives you advice about some good practices when coding
 - "browserslist":["last 2 Chrome versions"] in package.json tells babel and parcel what are we aiming to support. choosing the last 2 versions covers very little of the real world users. Do not limit that way your app.
+- JSX is the way to avoid the verbose React syntaxis to create an element and make it as easier as writing html tags (that are not html) to be interpreted by React
 
 ## Tools
 
@@ -33,13 +34,13 @@
 
 ## Shortcuts
 
-| Shortcut                                       | Action                                                                  |
-| ---------------------------------------------- | ----------------------------------------------------------------------- |
-| html:5                                         | Creates a basic html template                                           |
-| npm init                                       | Adds the basic structure that is a package.json                         |
-| npm install -D prettier                        | To install prettier as a DEV dependency                                 |
-| npm install -D eslint eslint-config-prettier   | To install eslint as dev dependency                                     |
-| npm install -D parcel                          | To install parcel                                                       |
-| npm install react react-dom                    | To install react and react-dom together, we can install them separately |
-| npm install -D @babel/core @babel/preset-react | To install babel                                                        |
-|                                                |                                                                         |
+| Shortcut                                                                       | Action                                                                  |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| html:5                                                                         | Creates a basic html template                                           |
+| npm init                                                                       | Adds the basic structure that is a package.json                         |
+| npm install -D prettier                                                        | To install prettier as a DEV dependency                                 |
+| npm install -D eslint eslint-config-prettier                                   | To install eslint as dev dependency                                     |
+| npm install -D parcel                                                          | To install parcel                                                       |
+| npm install react react-dom                                                    | To install react and react-dom together, we can install them separately |
+| npm install -D @babel/core @babel/preset-react                                 | To install babel                                                        |
+| npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react | To install the eslint plugins needed to handle JSX                      |
